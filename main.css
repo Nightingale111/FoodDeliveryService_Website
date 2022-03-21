@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* Custom Proprties */
+/* Custom Properties */
 
 :root {
     --leading: 2em;
@@ -208,10 +208,15 @@ p {
 
     .right-col {
         grid-area: content;
+        padding: 0 10%;
+        text-align: left;
+        align-self: center;
     }
 
     img {
         grid-area: bowl;
     }
-
+    h2 {
+        margin: 0;
+    }
 }
