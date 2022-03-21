@@ -186,6 +186,7 @@ p {
     label {
         margin: 0;
     }
+    
     input[type="button"] {
         height: fit-content;
         font-size: 1.1em;
@@ -216,7 +217,24 @@ p {
     img {
         grid-area: bowl;
     }
+    
     h2 {
         margin: 0;
+    }
+    
+}
+
+.top {
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
